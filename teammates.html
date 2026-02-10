@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    
+    <style>
+        html,
+        body {
+            position: relative;
+            width: 100%;
+        }
+        
+        body {
+            background: #fff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+        .team {
+            padding-block: 222px;
+            background-image: url(./white.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a class="wrapper-link" href="./index.html" data-aos="slide-right"  data-aos-duration="2000">
+                    CHAROS
+                </a>
+                <nav class="navbar" data-aos="slide-down"  data-aos-duration="2000">
+                    <ul class="navbar-list">
+                        <li class="navbar-item" >
+                            <a class="navbar-link"  href="./index.html"
+                            > About me</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="./family.html" >
+                                My family 
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="./project.html">
+                                My projects
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link active" href="./teammates.html">
+                                My teammates
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-box">
+                    <label for="modal-toggle" class="account-btn">
+                        <img class="account-img" width="40" src="./account.svg" alt="">
+                    </label>
+                    
+                    <input type="checkbox" id="modal-toggle" />
+                    
+                    <div class="modal">
+                        <div class="modal-content">
+                            <label for="modal-toggle" class="close-btn">&times;</label>
+                            
+                            <h2>Kirish</h2>
+                            
+                            <form>
+                                <input type="email" placeholder="Email" required>
+                                <input type="password" placeholder="Parol" required>
+                                <button type="submit">Kirish</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        <section class="team">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                        </div>
+                         <div class="swiper-slide">
+                            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="site-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+               <a class="logo-link" href="./index.html">
+                CHAROS
+               </a>
+               <ul class="footer-list">
+                <li class="footer-item">
+                    <a class="footer-link" href="#" data-aos="slide-down" data-aos-duration="1000" data-aos-delay="500"> 
+                        About me
+                    </a>
+                </li>
+                 <li class="footer-item">
+                    <a class="footer-link" href="#" data-aos="slide-down"
+                    data-aos-duration="2000" data-aos-delay="500">
+                      My family  
+                    </a>
+                </li>
+                 <li class="footer-item">
+                    <a class="footer-link" href="#" data-aos="slide-down" data-aos-duration="3000" data-aos-delay="500">
+                        My projects
+                    </a>
+                </li>
+                 <li class="footer-item">
+                    <a class="footer-link" href="#" data-aos="slide-down" data-aos-duration="4000" data-aos-delay="500">
+                        My teammates
+                    </a>
+                </li>
+               </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+</html>
